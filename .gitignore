@@ -1,0 +1,15 @@
+# 依赖
+node_modules/
+
+# 敏感数据 / 运行时状态
+server/cookie.json
+
+# 生成的临时文件
+server/qr.png
+*.log
+
+# Claude Code 本地配置
+.claude/
+
+# 环境变量（本地密钥，如需要可从 config.js 提取）
+.env
